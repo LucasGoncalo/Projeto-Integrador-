@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adote Vida</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../CSS/stylesheet.css" media="screen" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"defer></script>
+    <script rel="text/script" src="../Js/base.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/keen-slider@5.5.0/keen-slider.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+
+
+    <div class="header">
+
+        <div class="menu">
+            <ul>
+                <li><a href="#Origem">Origem</a></li>
+                <li><a href="#Adocao">Adoção</a></li>
+                <li><a href="#Parceiros">Parceiros</a></li>
+                <li><a href="#Colaboradores">Colaboradores</a></li>
+                <li><a href="#Equipe">Equipe</a></li>
+                <li style="float:right"><button onclick="Openmodal('dv-modal')" class="bnt">Login</button></li>
+            </ul>
+        </div>
+
+        <div id="dv-modal" class="modal">
+
+            <div class="modal-content">
+
+                <div class="modal-head">
+                    <button onclick="Closemodal('dv-modal')" class="botaofechar">fechar</botton>
+                </div>
+
+                <div class="modal-body">
+
+                    <p>Usúario</p>
+                    <input type="text" placeholder=" Nome do seu usuario" class="email">
+
+                    <p>Senha</p>
+                    <input type="password" placeholder="Digite a sua senha" class="Senha">
+
+                </div>
+               <br>
+                <div class="modal-footer">
+                    <a href="">Criar conta</a>
+                    <br>
+                    <a href="">Esqueci a senha</a>
+                    <br>
+                    <button class="botaoacesso">Entrar</button>
+                </div>
+                
+            </div>
+
+        </div>
+
+        <div class="div-logo">
+            <img class="logo" src="../IMG/LOGO_ADOTE_VIDAS.png" alt="Logomarca">
+
+        </div>
+
+    </div>
+
+    <div class="topo">
+
+        <div class="div-banner">
+            <p> Banner </p>
+            <div class="slider">
+                <div id="my-keen-slider" class="keen-slider">
+                  <div class="keen-slider__slide number-slide1"><a href="https://www.youtube.com/" target="_blank"><img src="IMG/adoteviads.png"></a></div>
+                  <div class="keen-slider__slide number-slide2">i</div>
+                  <div class="keen-slider__slide number-slide3">i</div>
+                  <div class="keen-slider__slide number-slide4">i</div>
+                  <div class="keen-slider__slide number-slide5"><img src="IMG/adoteviads.png"></div>
+                  <div class="keen-slider__slide number-slide6">i</div>
+                  <div class="botaodosilder">
+                    <button  class="bnt1" id="bnt1"> </button>
+                    <button  class="bnt1" id="bnt2"> </button>
+                    <button  class="bnt1" id="bnt3"> </button>
+                    <button  class="bnt1" id="bnt4"> </button>
+                    <button  class="bnt1" id="bnt5"> </button>
+                    <button  class="bnt1" id="bnt6"> </button>
+                  </div>
+                  <script src="https://cdn.jsdelivr.net/npm/keen-slider@5.5.0/keen-slider.min.js"></script>
+                  <script src="../Js/Banner01.js" defer></script>
+                </div>
+                </div>
+            
+        </div>
+
+        <!-- Div do banner de adoção -->
+
+        <div class="banner-Adoção">
+            <p> Adoção</p>
+            <img src="../IMG/1600x300.png" alt="Logomarca">
+            <!-- 
+            <div id="Dog">
+            
+                <img src="../IMG/800x300.png" alt="Logomarca" >
+            </div>
+            <div id="Cat">
+                <img src="../IMG/800x300.png" alt="Logomarca" >
+            </div> -->
+
+        </div>
+
+
+
+
+        <!-- Fim -->
+    </div>
+
+    <div class="body">
+
+        <div class="banner-Parceiros">
+            <p>Parceiros(as)</p>
+            <img src="../IMG/1600x300.png" alt="Logomarca">
+        </div>
+        <div class="Conjunto01">
+            <div class="NoticiaseColaboradores">
+                <div class="Noticias">
+                    <p> Noticias</p>
+                    <img src="../IMG/800x300.png" alt="Logomarca">
+                </div>
+
+                <div class="ColaboradoreseAdoção">
+                    <p> Colaboradores </p>
+                    <img src="../IMG/800x300.png" alt="Logomarca">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+
+        <div class="Estruturafooter">
+
+            <div class="Redessocias" class="Rlayout">
+
+                <ul>
+                    <li><a href="https://www.instagram.com/" target="_blank" class="fa fa-linkedin"></a> </li>
+                    <li><a href="https://pt-br.facebook.com/" target="_blank" class="fa fa-instagram"></a> </li>
+                    <li><a href="https://br.pinterest.com/" target="_blank" class="fa fa-pinterest"></a> </li>
+                    <li><a href="https://www.reddit.com/" target="_blank" class="fa fa-reddit"></a> </li>
+                </ul>
+
+            </div>
+
+            <div class="Grupo01">
+
+                <div class="Parceiros">
+                    <h2>Parceiro</h2>
+                    <!-- <img src=" https://via.placeholder.com/300X300"> -->
+                    <a href="Pagparceiros.html" target="_blank"><img src="../IMG/01.jpg"></a>
+                    <p> @J.Jones vc tem que usar o clear:both no grupo para quebrar a flutuação quando se usa Float
+                        no
+                        elementos. Para resolver o seu problema criei uma Div por fora chamada .grupo e nela eu
+                        criei um
+                        pseudoelement ::after e usei o estilo clear:both para limpar a flutuação e jogar o rodape
+                        pra
+                        baixo.
+                        Da
+                        uma olhada no código que vc vai entender. </p>
+                </div>
+
+                <div class="Colaboradores">
+                    <h2>Colaboradores</h2>
+                    <!-- <img src=" https://via.placeholder.com/300X300"> -->
+                    <a href="Pagcolaboradores.html" target="_blank"> <img src="../IMG/Amigol.jpg"></a>
+                    <p> @J.Jones vc tem que usar o clear:both no grupo para quebrar a flutuação quando se usa Float
+                        no
+                        elementos. Para resolver o seu problema criei uma Div por fora chamada .grupo e nela eu
+                        criei um
+                        pseudoelement ::after e usei o estilo clear:both para limpar a flutuação e jogar o rodape
+                        pra
+                        baixo.
+                        Da
+                        uma olhada no código que vc vai entender.</p>
+                </div>
+
+                <div class="Equipe">
+                    <h2>Equipe</h2>
+                    <!-- <img src=" https://via.placeholder.com/300X300"> -->
+                    <a href="Pagequipe.html" target="_blank"> <img src="../IMG/03.jpg"> </a>
+                    <p> @J.Jones vc tem que usar o clear:both no grupo para quebrar a flutuação quando se usa Float
+                        no
+                        elementos. Para resolver o seu problema criei uma Div por fora chamada .grupo e nela eu
+                        criei um
+                        pseudoelement ::after e usei o estilo clear:both para limpar a flutuação e jogar o rodape
+                        pra
+                        baixo.
+                        Da
+                        uma olhada no código que vc vai entender. </p>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
